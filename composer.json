@@ -1,0 +1,32 @@
+{
+    "name": "aryelds/yii2-sweet-alert",
+    "description": "A widget to flash sweet alert messages using SweetAlert plugin",
+    "keywords": ["yii2", "extension", "widget", "yii2-sweet-alert", "alert", "yii2 sweet alert"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "support": {
+        "issues": "https://github.com/aryelds/yii2-sweet-alert/issues",
+        "wiki": "https://github.com/aryelds/yii2-sweet-alert/wiki/",
+        "source": "https://github.com/aryelds/yii2-sweet-alert"
+    },
+    "authors": [
+        {
+            "name": "Aryel Santos",
+            "email": "aryel.ds@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bower-asset/sweetalert" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aryelds\\sweetalert\\": ""
+        }
+    },
+     "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
